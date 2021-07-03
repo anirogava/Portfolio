@@ -1,4 +1,4 @@
-/* Custom properties/variables  */
+ 
 :root {
     --main-white: #f0f0f0;
     --main-red: #00573F;
@@ -7,7 +7,7 @@
   }
   /* #A97F36 */
     
-  html {
+   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
   }  
@@ -24,6 +24,13 @@
     font-weight: 700;
     text-align: center;
   }
+  .hello:hover{
+      transform: translateY(8px);
+    }
+    .hello{
+      text-shadow: 2px 2px 1px #1f1f1f;
+      transition: transform 0.3s ease-out;
+    }
   h1 {
     font-size: 6rem;
   }
@@ -76,7 +83,7 @@
   
   .welcome-section > p {
     font-size: 3rem;
-    font-weight: 200;
+    font-weight: 900;
     font-style: italic;
     color: var(--main-red);
   }
@@ -207,5 +214,5 @@
   footer i {
     vertical-align: middle;
   }
+
   
- 
